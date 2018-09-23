@@ -1,0 +1,34 @@
+#p1{
+    background-color: skyblue;
+}
+
+
+#p2{
+    background-color: firebrick;
+}
+
+#inline-elements {
+    display: inline
+    background-color: red;
+}
+
+#inline-p1 {
+    background-color:  red;
+}
+
+#inline-p2 {background-color: aqua;
+    
+}
+
+#inline-block-elements li {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    background-color: goldenrod;
+}
+
+#dispay-none {
+   display: none;
+}
+

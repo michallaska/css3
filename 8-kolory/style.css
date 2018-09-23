@@ -1,0 +1,19 @@
+div {
+    width: 200px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+
+#predefined-colors {background-color: aquamarine;    
+}
+
+#hexadecimal-colors {background-color: #43dd42;
+       
+}
+
+#rgb-function {background-color:#465;
+}
+
+#rgba-function {background-color:rgba(176,34,45,0,5);
+}
