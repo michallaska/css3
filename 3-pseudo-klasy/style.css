@@ -1,0 +1,25 @@
+#name:hover {
+    background-color: green;
+}
+
+#name:focus {
+    color: red;
+    
+}
+
+
+
+.customer:first-child {
+    font-size: 2em;    
+    
+}
+
+.customer:nth-last-child(3)
+{ color: blue;
+    
+}
+
+
+.customer:nth-child(2n) {background-color: darkmagenta;
+        
+}
