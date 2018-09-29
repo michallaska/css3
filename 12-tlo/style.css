@@ -1,0 +1,21 @@
+body {
+    background-color: aqua;
+}
+
+p{
+    font-size: 2rem;
+    margin-bottom: 25px;  
+}
+
+.bg{
+/*
+    background-color: rgba(123,234,32,3);
+    background-image:url(../img/akademia108_logo.png);
+    background-repeat: no-repeat;
+    background-position: 100px 50px;
+    
+*/
+    background: rgba(147,225,67,1) url(img/akademia108_logo.png) no-repeat 100px 50 px;
+    
+    
+}
