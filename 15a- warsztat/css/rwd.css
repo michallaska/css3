@@ -1,11 +1,40 @@
-@media (min-width: 992px) {
+
+
+#figure {
+    width: 33.33%;
+}
+    
+
+@media screen and (min-width: 992px) {
+    #gallery {width: 95%}    
 }
 
 @media (max-width: 992px) {
-}
+    
+} 
 
 @media (max-width: 768px) {
+    #gallery 
 }
 
-@media (max-width: 480px) {
-}
+/*małe telefony*/
+@media screen and (max-width: 480px) {
+    #gallery {width: 100%;
+    }
+    figure {width: 100%
+    }
+    }
+
+
+/*
+Small phones media queries
+
+@media screen and (max-width: 480px) {
+	
+	#gallery {
+		width: 100%;
+	}
+	
+	figure {
+		width: 100%;
+	}*/

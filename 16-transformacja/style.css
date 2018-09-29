@@ -1,0 +1,60 @@
+.transform{
+    position: relative;
+    transition: all 1s;
+}
+
+.transform-rotate:hover {
+    transform: rotate(45deg);
+    transform-origin: 0% 0%;
+}
+
+.transform-translate:hover {
+    transform: translate(100px,100px);
+}
+
+.transform-scale:hover{
+   /* transform: scale(2);*/
+    transform: scalex(2)
+    
+}
+
+.center {
+    width: 30%;
+    height: 30%;
+    z-index: 3;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.animate{
+    height: 200px;
+    background-color: darkblue;
+    
+/*
+    animation-name: resize;
+    animation-duration: 6s;
+    animation-iteration-count:2; infinite -nieskonczone
+    animation-delay: 2s;
+    animation-fill-mode: forwards
+*/
+    
+    animation: resize 6s steps(6,start) 0s forwards; 
+    
+}
+
+@keyframes resize{
+    0%, 100%{
+        width: 100%;
+        transform: translateX(0);
+        
+        
+    } 50%{
+        width: 50%;   
+        transform: translateX(200px);
+    } 
+    
+}
