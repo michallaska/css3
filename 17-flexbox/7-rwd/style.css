@@ -1,0 +1,68 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    min-height: 100vh;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bfd255+0,8eb92a+31,9ecb2d+63,9ecb2d+63,72aa00+90 */
+    background: rgb(191, 210, 85);
+    /* Old browsers */
+    background: -moz-linear-gradient(45deg, rgba(191, 210, 85, 1) 0%, rgba(142, 185, 42, 1) 31%, rgba(158, 203, 45, 1) 63%, rgba(158, 203, 45, 1) 63%, rgba(114, 170, 0, 1) 90%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(191, 210, 85, 1) 0%, rgba(142, 185, 42, 1) 31%, rgba(158, 203, 45, 1) 63%, rgba(158, 203, 45, 1) 63%, rgba(114, 170, 0, 1) 90%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, rgba(191, 210, 85, 1) 0%, rgba(142, 185, 42, 1) 31%, rgba(158, 203, 45, 1) 63%, rgba(158, 203, 45, 1) 63%, rgba(114, 170, 0, 1) 90%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bfd255', endColorstr='#72aa00', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.articles {
+    max-width: 770px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+
+
+.artciles-el {
+    margin-bottom: 30px;
+    display: flex;
+/*    justify-content: space-between;*/
+}
+
+.artciles-el img {
+    max-width: 100%;
+}
+
+
+.articles-img {
+    flex-basis: 40%;
+    margin: 0;
+}
+
+.articles-text {
+    flex-basis: 50%;
+}
+
+/*
+.articles-reverse .articles-img{
+    order: 2;
+}
+
+.articles-reverse .articles-text {
+    order: 1;
+}
+*/
+
+.articles-reverse {
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 670px){
+    .artciles-el{
+        flex-direction: column;
+    }
+    .articles-img .articles-text {
+        margin-bottom: 15px;
+        flex-basis: 100%;
+    }
+}
